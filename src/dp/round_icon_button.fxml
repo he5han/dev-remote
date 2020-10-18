@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root type="javafx.scene.layout.StackPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Circle fx:id="circle" fill="#5b5b5b" onMouseClicked="#onClick" onMouseEntered="#onHover" onMouseExited="#onExit" strokeType="INSIDE" strokeWidth="0"/>
+   </children>
+</fx:root>
